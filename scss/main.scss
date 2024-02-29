@@ -1,0 +1,24 @@
+@import './utils/normalize';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/container';
+@import './utils/utils';
+@import './utils/text-brands';
+
+@import './base';
+
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/advantages-company';
+@import './layouts/history-company';
+@import './layouts/portfolio-company';
+@import './layouts/founders-company';
+@import './layouts/question-section';
+@import './layouts/contact-section';
+@import './layouts/_footer';
+
+
+
+@import './components/networks';
+@import './components/logo';
+

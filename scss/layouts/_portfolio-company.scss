@@ -1,0 +1,78 @@
+.portfolio-company {
+  &__subtitle {
+    margin: auto;
+    margin-top: 258px;
+    text-align: center;
+  }
+
+  &__title {
+    margin: auto;
+    margin-top: 22px;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  &__describe {
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+  }
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  width: 1170px;
+  margin-top: 32px;
+
+  &__top {
+    display: grid;
+    grid-template-columns: 470px 370px 270px;
+    grid-template-rows: 352px;
+    gap: 30px;
+    padding: 0;
+    max-width: 1170px;
+  }
+
+  &__bottom {
+    display: grid;
+    grid-template-columns: 370px 270px 470px;
+    grid-template-rows: 352px;
+    gap: 30px;
+    padding: 0;
+    width: 1170px;
+  }
+
+  &__card {
+    box-shadow: 10px 10px 40px 0 rgba(54, 33, 0, 0.5);
+
+    &--background {
+      background-color: var(--color-black);
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: var(--color-black);
+    margin-top: 26px;
+    padding-left: 32px;
+    text-align: left;
+    &--white {
+      color: var(--color-white);
+    }
+  }
+
+  &__describe {
+    font-family: "Montserrat", sans-serif;
+    color: var(--color-primary-translucent);
+    padding-left: 32px;
+        text-align: left;
+
+
+    &--grey {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

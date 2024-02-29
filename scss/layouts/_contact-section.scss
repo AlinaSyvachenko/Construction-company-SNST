@@ -1,0 +1,91 @@
+.contact-section {
+  &__container {
+    display: flex;
+    gap: 174px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 240px;
+  }
+
+  &__title {
+    margin-top: 40px;
+  }
+
+  &__form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 28px;
+  }
+
+  &__form-input {
+    height: 48px;
+    padding: 8px 0 8px 16px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    &::placeholder {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2;
+      color: var(--color-primary-translucent);
+    }
+  }
+
+  &__form-textarea {
+    height: 144px;
+    padding: 8px 0 8px 16px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+
+    &::placeholder {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2;
+      color: var(--color-primary-translucent);
+    }
+  }
+
+  &__form-button {
+    border-radius: 3px;
+    width: 170px;
+    height: 48px;
+    border: none;
+    background-color: var(--color-primary-orange);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-white);
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+  }
+
+  &__iframe-container {
+    position: relative;
+    
+  }
+
+  &__iframe {
+    width: 570px;
+    height: 528px;
+    border-radius: 3px;
+    position: relative;
+    top: 48px;
+    left: -56px;
+  }
+
+  &__iframe-gradient {
+    width: 570px;
+    height: 624px;
+    border-radius: 3px;
+    background-image: linear-gradient(135deg, #ffebc9 0%, #f5a623 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+}

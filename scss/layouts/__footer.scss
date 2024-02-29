@@ -1,0 +1,87 @@
+.footer {
+  margin-top: 176px;
+  background-color: var(--color-black);
+
+  &__contact-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__logo {
+    margin-top: 78px;
+    margin-bottom: 34px;
+    position: relative;
+    left: -60px;
+  }
+
+  &__contact-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__contact-svg-container {
+    background-color: var(--color-primary-translucent);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+
+    &:hover {
+      background-color: var(--color-white);
+
+      & .footer__contact-svg {
+        fill: var(--color-black);
+      }
+    }
+  }
+
+  &__contact-svg {
+    fill: var(--color-white);
+  }
+
+  &__number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: var(--color-white);
+  }
+
+  &__email {
+    font-family: "Montserrat", sans-serif;
+    color: var(--color-white);
+  }
+
+  &__networks {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: var(--color-white);
+    margin-top: 88px;
+    margin-bottom: 38px;
+    text-align: left;
+  }
+
+  &__line {
+    max-width: 1170px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-white);
+    opacity: 0.1;
+    margin-top: 64px;
+  }
+
+  &__addres {
+    font-family: "Montserrat", sans-serif;
+color: rgba(255, 255, 255, 0.5);
+text-align: left;
+padding-left: 40px;
+margin-top: 42px;
+padding-bottom: 38px;
+  }
+}

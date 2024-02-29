@@ -1,0 +1,51 @@
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  &__menu {
+    color: var(--color-white);
+    font-family: "Montserrat", sans-serif ;
+  }
+
+  &__menu:hover {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__right-box {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  &__button {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--color-primary-translucent);
+    border: 0;
+    color: var(--color-white);
+    width: 120px;
+    height: 48px;
+    border-radius: 5%;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--color-black);
+        background-color: var(--color-white);
+    }
+  }
+}

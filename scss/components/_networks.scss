@@ -1,0 +1,27 @@
+.networks {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  &__container {
+    background-color: var(--color-primary-translucent);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+
+    &:hover {
+      background-color: var(--color-white);
+      & .networks__icone {
+        fill: var(--color-black);
+      }
+    }
+  }
+
+  &__icone {
+    fill: var(--color-white);
+  }
+}

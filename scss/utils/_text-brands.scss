@@ -1,0 +1,23 @@
+.subtitle {
+  font-size: 18px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  color: var(--color-black);
+  width: 190px;
+  height: 32px;
+  background-color: var(--color-primary-beige);
+  margin-top: 27px;
+  border-radius: 2px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.2;
+  color: var(--color-black);
+}
+
+.describe {
+    font-family: "Montserrat", sans-serif;
+    color: var(--color-primary-translucent);
+}
